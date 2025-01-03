@@ -42,24 +42,22 @@ public class Tabuleiro {
             for (int j = 0; j < 9; j++) {
                 int valor = casa[i][j].getValor();
                 if (valor != 0) {
-                    if (valores[valor]) return false; // Número duplicado
+                    if (valores[valor]) return false; 
                     valores[valor] = true;
                 }
             }
         }
-
         //valida colunas
         for (int j = 0; j < 9; j++) {
             boolean[] valores = new boolean[10];
             for (int i = 0; i < 9; i++) {
                 int valor = casa[i][j].getValor();
                 if (valor != 0) {
-                    if (valores[valor]) return false; // Número duplicado
+                    if (valores[valor]) return false;
                     valores[valor] = true;
                 }
             }
         }
-        
         //valida grids
         for (int gridX = 0; gridX < 3; gridX++) {
             for (int gridY = 0; gridY < 3; gridY++) {

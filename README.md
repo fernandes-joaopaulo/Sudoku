@@ -1,2 +1,2 @@
 # Sudoku
-Criação de um jogo de Sudoku em Java
+Criação de um jogo de Sudoku em Java com Maven

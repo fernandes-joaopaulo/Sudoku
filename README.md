@@ -11,15 +11,15 @@ respeitadas:
 
 -  Implementação:
 
-Atividade 1 (criando a configuração inicial do jogo)
+Atividade 1: (criando a configuração inicial do jogo)
 Criar uma tela de boas-vindas para o jogador e perguntar ao usuário se
 ele pretende gerar um jogo aleatório ou definir o próprio jogo.
 
-Jogo aleatório
+Jogo aleatório:
 O programa pergunta ao usuário quantos números ele deseja sortear e
 criar o jogo.
 
-Definir jogo
+Definir jogo:
 O usuário define os valores iniciais do jogo com o seguinte formato
 “([linha],[coluna],[valor])”. Por exemplo, (2,5,3) que representa
 linha=2, coluna=5 e valor=3. O programa também deve permitir várias
@@ -31,11 +31,11 @@ dos valores iniciais digitando a entrada (-1, -1, - 1). Vale ressaltar
 que o domínio das linhas, colunas e valores são inteiros no intervalo
 [1,9].
 
-Atividade 2 (vamos jogar?)
+Atividade 2 (vamos jogar?):
 Após a definição da configuração inicial do jogo, nessa atividade deve
 ser criada uma tela com a dinâmica do jogo com as seguintes opções:
 
-Adicionar jogada
+Adicionar jogada: 
 Para adicionar uma jogada o usuário entra com os dados relacionados
 à linha, coluna e valor no seguinte formato “(linha,coluna, valor)” sem
 espaços respeitando ao domínio de entrada. Entradas fora do formato
@@ -50,23 +50,23 @@ exemplo, caso a entrada (2,2,3) já tenha um valor na mesma posição, crie
 uma mensagem dizendo “A entrada (2,2,3) não foi inserida, pois já possui
 um valor atribuído”.
 
-Remover jogada
+Remover jogada:
 Para remover uma jogada o usuário fornece o valor da linha e coluna
 a ser removida no formato “(linha,coluna)” sem espaço e respeitando o
 domínio da entrada. Vale ressaltar que os valores definidos na Atividade
 1 não podem ser removidos.
 
-Verificar
+Verificar:
 Para avaliar se o jogo está correto até o momento. Caso alguma das
 três regras não sejam satisfeitas, o seu programa deve criar um
 relatório descrevendo as quebras.
 
-Dica
+Dica:
 Oferecer uma opção de dica, informando quais os valores podem ser
 adicionados em uma posição específica. Para isso, o usuário deve
 fornecer a linha e coluna no formato “(linha,coluna)” sem espaço e
 respeitando o domínio da entrada. A dica deverá retornar o conjunto dos
 valores que podem ser adicionados nessa posição.
 
-Sair
+Sair:
 Para sair do jogo.
